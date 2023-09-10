@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutMe</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="mobile.css">
+    <script src="https://kit.fontawesome.com/7692c4ef1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav id="header--nav">
+            <a id="hamburgerMenu" href="javascript:void(0);" onclick="hamburgerMenu()"><i class="fa-solid fa-bars"></i></a>
+            <h1 id="nav--h1"><a href="index.html">About<span>Me</span></a></h1>
+            <ul id="nav--ul">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>  
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main--div"><img id="profile-pic" src="profile-pic.jpg" alt="Personal image 1"></div>
+        <section class="main--section">
+            <p id="welcome">Hello, Welcome</p>
+            <h2 id="myName">I'm Gideon Boakye</h2>
+            <p id="lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, earum! Architecto voluptatum at, debitis nulla harum quos magnam quibusdam sequi praesentium, est officia voluptas neque quis enim nihil, tempore minima?
+            </p>
+            <a id="contact" href="contact.html">Contact Us</a>
+        </section>
+    </main>
+    <script>
+        function hamburgerMenu(){
+            var x = document.getElementById("nav--ul")
+            if (x.style.display === "block"){
+                x.style.display = "none"
+            } else {
+                x.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
