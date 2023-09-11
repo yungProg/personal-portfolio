@@ -1,0 +1,101 @@
+#profile-pic {
+    width: 200px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 70%;
+}
+
+main {
+    padding: 5px 30px;
+}
+
+#welcome {
+    margin-top: 10vh;
+    color: #EAB308;
+}
+
+#myName {
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+#lorem {
+    margin-top: 24px;
+    color: #6B7280;
+    line-height: calc(100% + 7px);
+}
+
+#contact {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #FACC15;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: box-shadow ease-in-out;
+}
+
+#contact, #contact:focus, #contact:visited, #contact:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+#contact:hover {
+    box-shadow: 1px 0px 5px #FACC15;
+}
+
+@media (min-width: 700px) {
+    #profile-pic {
+        width: 500px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    #nav--ul {
+        display: flex;
+        margin: auto 10px auto auto;
+    }
+
+    #hamburgerMenu {
+        display: none;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: 85%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .main--div {
+        grid-column: 2;
+        
+    }
+
+    .main--section {
+        grid-column: 1;
+        margin-left: 40px;
+        height: calc(100vh - 150px);
+        position: relative;
+    }
+
+    #profile-pic {
+        width: 300px;
+        position: absolute;
+        left: 80%;
+        top: 47%;
+        transform: translate(-50%, -50%);
+    }
+}
