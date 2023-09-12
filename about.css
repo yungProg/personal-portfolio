@@ -1,0 +1,50 @@
+nav {
+    padding-left: 5%;
+    padding-right: 7.5%;
+}
+
+main {
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* image styles */
+#img--div {
+    width: 350px;
+    margin: 3vh auto;
+}
+
+#profile-pic {
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+/* end of image styles */
+
+/* article styles */
+
+article {
+    margin-top: 6vh;
+}
+
+h2 {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+h2 > span {
+    color: var(--text-color3);
+}
+
+article > p {
+    margin-top: 1.7vh;
+    line-height: calc(20px);
+}
+
+article > a {
+    display: block;
+}
+
+/* article styles */

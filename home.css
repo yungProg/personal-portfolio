@@ -1,3 +1,7 @@
+#nav--ul > li:first-child > a {
+    color: #FFFFFF;
+}
+
 #profile-pic {
     width: 200px;
     display: block;
@@ -23,21 +27,6 @@ main {
     margin-top: 24px;
     color: #6B7280;
     line-height: calc(100% + 7px);
-}
-
-#contact {
-    display: inline-block;
-    margin-top: 15px;
-    background-color: #FACC15;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: none;
-    transition: box-shadow ease-in-out;
-}
-
-#contact, #contact:focus, #contact:visited, #contact:active {
-    color: #000000;
-    text-decoration: none;
 }
 
 #contact:hover {
